@@ -9,7 +9,20 @@
   gap: 30px;
   text-align: center;
   padding-top: 20px;
+  align-items: center;
 }
+
+.header nav ul {
+ display: flex;
+ flex: wrap;
+
+}
+
+.header_menu a {
+display: block;
+margin: 10px;
+}
+
 
 .menu-div {
   grid-area: nav;
