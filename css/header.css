@@ -7,9 +7,9 @@
   "footer footer footer"
   ;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 30px;
+  gap: 10px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
   align-items: center;
   justify-content: space-between;
   
@@ -49,6 +49,7 @@ margin: 10px;
 
 .header_menu li:hover {
   scale: 1.1;
+  color: red;
 }
 
 .socialmidia img:hover {
@@ -57,6 +58,8 @@ margin: 10px;
 
 .imagem1 {
  grid-area: logo;
+ padding-left: 50px;
+
 }
 
 .imagem_rivals {
